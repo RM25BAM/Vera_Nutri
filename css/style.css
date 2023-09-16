@@ -107,7 +107,7 @@ body {
 }
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item.active .nav-link, .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item:hover .nav-link {
-  color: #e7d619;
+  color: #FEC9CB;
 }
 
 a,
@@ -270,7 +270,7 @@ a:focus {
   top: 0;
   left: 0;
   background-color: black;
-  background-color: rgba(10, 32, 80, 0.95);
+  background-color: rgba(218, 160, 136, 0.95);
   overflow-x: hidden;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -333,7 +333,7 @@ a:focus {
 .slider_section .detail-box {
   margin: 45px 5% 0 5%;
   padding-bottom: 45px;
-  border-right: 2px solid #e7d619;
+  border-right: 2px solid #E30B5C;
 }
 
 .slider_section .detail-box h1 {
@@ -345,7 +345,7 @@ a:focus {
 }
 
 .slider_section .detail-box h1 span {
-  color: #e7d619;
+  color: #E30B5C;
 }
 
 .slider_section .detail-box .btn-box {
@@ -366,37 +366,38 @@ a:focus {
 .slider_section .detail-box .btn-box .btn-1 {
   display: inline-block;
   padding: 10px 0px;
-  background-color: #0a2050;
+  background-color: #FA8072;
   color: #ffffff;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  border: 1px solid #0a2050;
+  border: 1px solid #FA8072;
   border-radius: 0;
 }
 
 .slider_section .detail-box .btn-box .btn-1:hover {
   background-color: transparent;
-  color: #0a2050;
+  color: #FA8072;
 }
 
 .slider_section .detail-box .btn-box .btn-2 {
   display: inline-block;
   padding: 10px 0px;
-  background-color: #e7d619;
+  background-color: #E30B5C;
   color: #ffffff;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  border: 1px solid #e7d619;
+  border: 1px solid #E30B5C;
   border-radius: 0;
 }
 
 .slider_section .detail-box .btn-box .btn-2:hover {
   background-color: transparent;
-  color: #e7d619;
+  color: #E30B5C;
 }
 
 .slider_section .img-box img {
   max-width: 100%;
+  max-height: auto;
 }
 
 .slider_section #carouselExampleIndicators {
@@ -414,7 +415,7 @@ a:focus {
   height: 12px;
   opacity: 1;
   background: none;
-  border: 2px solid #e7d619;
+  border: 2px solid #E30B5C;
   color: #000000;
   position: relative;
   margin: 0 4px;
@@ -1011,7 +1012,7 @@ a:focus {
 }
 
 .info_section {
-  background-color: #0a2050;
+  background-color: #daa088;
   color: #ffffff;
   padding: 40px 0 75px 0;
   font-family: "Open Sans",
