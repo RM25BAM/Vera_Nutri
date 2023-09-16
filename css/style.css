@@ -75,6 +75,8 @@ body {
   width: 45%;
   height: 88%;
   background-image: url(../images/hero-bg2.png);
+  -webkit-animation: even-box-animate 3s infinite;
+          animation: even-box-animate 3s infinite;
   background-size: cover;
   background-position: left bottom;
   background-repeat: no-repeat;
@@ -153,7 +155,7 @@ a:focus {
 }
 
 .navbar-brand img {
-  width: 200px;
+ width: 100px;
 }
 
 .custom_nav-container {
@@ -397,8 +399,8 @@ a:focus {
 
 .slider_section .img-box img {
   justify-content: right;
-  margin-left: 250px;
-  max-width: 100%;
+  margin-left: 40px;
+  max-width: auto;
 }
 
 .slider_section #carouselExampleIndicators {
@@ -435,7 +437,7 @@ a:focus {
   top: 3.5px;
   width: 1.5px;
   height: 17px;
-  background-color: #e7d619;
+  background-color: #E30B5C;
   border-radius: 5px;
   -webkit-transform: rotate(25deg);
           transform: rotate(25deg);
@@ -452,6 +454,7 @@ a:focus {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  background-color:#E30B5C;
 }
 
 .about_section .detail-box .heading_container h2 {
@@ -462,7 +465,11 @@ a:focus {
   color: #0e0e0e;
   margin-top: 15px;
 }
-
+.about_section .detail-box h1 {
+  color: #0e0e0e;
+  margin-top: 25px;
+  ;
+}
 .about_section .detail-box .btn-box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -480,18 +487,17 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #e7d619;
+  color: #E30B5C;
   text-transform: uppercase;
 }
 
 .about_section .detail-box .btn-box a img {
   margin-left: 5px;
 }
-
 .animal_section {
-  background-image: url(../images/animal-bg.jpg);
+  background-image: url(../images/hero-bg.jpg);
   background-size: cover;
-  color: #ffffff;
+  color: #000000;
 }
 
 .animal_section .animal_container {
@@ -779,7 +785,7 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #e7d619;
+  color: #E30B5C;
   text-transform: uppercase;
 }
 
@@ -836,13 +842,13 @@ a:focus {
 }
 
 .food_section .food_container .box .detail-box h6 {
-  color: #e7d619;
+  color: #E30B5C;
   text-transform: uppercase;
 }
 
 .food_section .food_container .box .detail-box h3 {
   font-weight: bold;
-  color: #e7d619;
+  color: #E30B5C;
 }
 
 .food_section .food_container .box .detail-box h3 span {
@@ -853,7 +859,7 @@ a:focus {
   display: inline-block;
   padding: 8px 45px;
   background-color: #0a2050;
-  color: #e7d619;
+  color: #E30B5C;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   border: 1px solid #0a2050;
@@ -867,7 +873,7 @@ a:focus {
 }
 
 .client_section {
-  background-image: url(../images/client-bg.jpg);
+  background-image: url(../images/hero-bg.jpg);
   background-size: cover;
 }
 
@@ -919,7 +925,7 @@ a:focus {
   position: unset;
   width: 45px;
   height: 45px;
-  background-color: #e7d619;
+  background-color: #E30B5C;
   opacity: 1;
   border-radius: 100%;
   background-repeat: no-repeat;
@@ -986,11 +992,11 @@ a:focus {
 .contact_section button {
   display: inline-block;
   padding: 10px 45px;
-  background-color: #e7d619;
+  background-color: #E30B5C;
   color: #ffffff;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  border: 1px solid #e7d619;
+  border: 1px solid #E30B5C;
   border-radius: 0;
   color: #fff;
   margin-top: 35px;
@@ -998,7 +1004,7 @@ a:focus {
 
 .contact_section button:hover {
   background-color: transparent;
-  color: #e7d619;
+  color: #E30B5C;
 }
 
 .contact_section .map_container {
@@ -1052,17 +1058,17 @@ a:focus {
   text-transform: uppercase;
   display: inline-block;
   padding: 4px 45px;
-  background-color: #e7d619;
+  background-color: #E30B5C;
   color: #0a2050;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  border: 1px solid #e7d619;
+  border: 1px solid #E30B5C;
   border-radius: 0;
 }
 
 .info_form button:hover {
   background-color: transparent;
-  color: #e7d619;
+  color: #E30B5C;
 }
 
 .info_social .social_container {
@@ -1110,7 +1116,7 @@ a:focus {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #e7d619;
+  background-color: #E30B5C;
 }
 
 .footer_section p {
