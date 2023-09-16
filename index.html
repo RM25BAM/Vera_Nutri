@@ -34,6 +34,13 @@
           <a class="navbar-brand" href="index.html">
             <img src="images/logo.png" alt="">
           </a>
+              <header>
+                <div id="language-options">
+                    Language: 
+                    <a href="#" onclick="switchLanguage('en')">English</a> | 
+                    <a href="#" onclick="switchLanguage('pt')">Português</a>
+                </div>
+            </header>
           <div class="" id="">
             <div class="User_option">
               <form class="form-inline my-2  mb-3 mb-lg-0">
@@ -86,6 +93,7 @@
                         01
                       </h5>
                     </div>
+                    <div id="english-content">
                     <h1>
                       Dra. Vera Bezerra <br>
                       <span>
@@ -96,12 +104,13 @@
                       Pronto para uma transformação na saúde? A Dra. Vera Bezerra, uma nutricionista renomada, pode guiá-lo em direção aos seus objetivos de bem-estar. Seja perda de peso, aumento de energia ou melhor qualidade de vida, a expertise dela pode fazer a diferença. Entre em contato com a Dra. Vera Bezerra agora mesmo para uma vida mais saudável!
                     </p>
                     <div class="btn-box">
-                      <a href="" class="btn-1">
-                        Saiba mais
+                      <a href="#" class="btn-1">
+                        Call me
                       </a>
                       <a href="" class="btn-2">
-                        Contate-nos
+                        Contact me
                       </a>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -697,6 +706,27 @@
       document.querySelector(".custom_menu-btn").classList.toggle("menu_btn-style")
     }
   </script>
+  <script>
+    // Function to switch between languages
+    function switchLanguage(lang) {
+        if (lang === 'en') {
+            document.getElementById('english-content').style.display = 'block';
+            document.getElementById('portuguese-content').style.display = 'none';
+        } else if (lang === 'pt') {
+            document.getElementById('english-content').style.display = 'none';
+            document.getElementById('portuguese-content').style.display = 'block';
+        }
+    }
+
+    // Function to show a message in the selected language
+    function showMessage(lang) {
+        if (lang === 'en') {
+            alert('You clicked the button!');
+        } else if (lang === 'pt') {
+            alert('Você clicou no botão!');
+        }
+    }
+</script>
 
 </body>
 
