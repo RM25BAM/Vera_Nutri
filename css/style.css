@@ -157,7 +157,9 @@ a:focus {
 .navbar-brand img {
  width: 100px;
 }
-
+.navbar-icon img{
+  width: 50px;
+}
 .custom_nav-container {
   z-index: 99999;
   padding: 0;
