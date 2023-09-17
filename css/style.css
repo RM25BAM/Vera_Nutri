@@ -637,6 +637,7 @@ a:focus {
   z-index: 2;
 }
 
+
 .pet_section .img-box::before {
   content: "";
   position: absolute;
