@@ -463,7 +463,6 @@ a:focus {
 .about_section .detail-box .heading_container h2 {
   color: #151515;
 }
-
 .about_section .detail-box p {
   color: #0e0e0e;
   margin-top: 15px;
@@ -691,7 +690,7 @@ a:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
@@ -745,7 +744,7 @@ a:focus {
   width: 80%;
   height: 1.5px;
   background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, transparent), color-stop(50%, #e7d619));
-  background-image: linear-gradient(to right, transparent 50%, #e7d619 50%);
+  background-image: linear-gradient(to right, transparent 50%, #E30B5C 80%);
   background-size: 20px 100%;
   z-index: -1;
   -webkit-transform: translateX(-50%);
