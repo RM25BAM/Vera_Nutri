@@ -30,7 +30,6 @@ body {
 .layout_padding-bottom {
   padding-bottom: 120px;
 }
-
 .heading_container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -43,9 +42,11 @@ body {
       -ms-flex-align: start;
           align-items: flex-start;
 }
-
+.heading_container2 img {
+  max-width: 20px;
+}
 .heading_container img {
-  max-width: 50px;
+  max-width: 150px;
 }
 
 .heading_container h2 {
@@ -468,7 +469,7 @@ a:focus {
   margin-top: 15px;
 }
 .about_section .detail-box h1 {
-  color: #0e0e0e;
+  color: #E30B5C;
   margin-top: 25px;
   ;
 }
