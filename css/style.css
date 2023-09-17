@@ -48,6 +48,15 @@ body {
 .heading_container img {
   max-width: 150px;
 }
+.heading_container3 img {
+  max-width: 60px;
+  align-content: center;
+
+}
+.heading_container3 h2 {
+  font-weight: bold;
+  text-align: center;
+}
 
 .heading_container h2 {
   font-weight: bold;
@@ -76,8 +85,8 @@ body {
   width: 45%;
   height: 88%;
   background-image: url(../images/hero-bg2.png);
-  -webkit-animation: even-box-animate 3s infinite;
-          animation: even-box-animate 3s infinite;
+  -webkit-animation: even-box-animate 4s infinite;
+          animation: even-box-animate 4s infinite;
   background-size: cover;
   background-position: left bottom;
   background-repeat: no-repeat;
@@ -156,7 +165,7 @@ a:focus {
 }
 
 .navbar-brand img {
- width: 100px;
+ width: 50px;
 }
 .navbar-icon img{
   width: 50px;
@@ -367,7 +376,20 @@ a:focus {
   width: 165px;
   text-align: center;
 }
-
+.btn-box-download a{
+  border-radius: 20px;
+  text-align: center;
+  width: 600px;
+  height: 450px;
+  color: #000000;
+  font-weight:300;
+  border: 3px solid #FA8072;
+  box-shadow: #000000 70%;
+  background-color: #FA8072;
+}
+.btn-box-download img {
+  width: 30px;
+}
 .slider_section .detail-box .btn-box .btn-1 {
   display: inline-block;
   padding: 10px 0px;
