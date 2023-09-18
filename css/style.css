@@ -46,7 +46,7 @@ body {
   max-width: 20px;
 }
 .heading_container img {
-  max-width: 150px;
+  max-width: 80px;
 }
 .heading_container3 img {
   max-width: 60px;
@@ -427,7 +427,16 @@ a:focus {
   margin-left: 40px;
   max-width: auto;
 }
-
+ .img-box2 img {
+  justify-content: right;
+  margin-right: 25px;
+  width: 340px;
+}
+.img-box3 img {
+  justify-content: right;
+  margin-right: 25px;
+  width: 340px;
+}
 .slider_section #carouselExampleIndicators {
   width: 100%;
 }
@@ -468,6 +477,12 @@ a:focus {
           transform: rotate(25deg);
 }
 
+.about_section2 img{
+  width: 700px;
+}
+.about_section2 p{
+  text-align: left;
+}
 .about_section .detail-box {
   text-align: center;
   width: 80%;
@@ -957,7 +972,6 @@ a:focus {
   background-position: center;
   margin: 0 3px;
 }
-
 .client_section .carousel_btn-box .carousel-control-prev:hover,
 .client_section .carousel_btn-box .carousel-control-next:hover {
   background-color: #000000;
@@ -1050,7 +1064,9 @@ a:focus {
   font-family: "Open Sans",
  sans-serif;
 }
-
+.info_section p{
+  color:white;
+}
 .info_section .row > div {
   margin-top: 35px;
 }
